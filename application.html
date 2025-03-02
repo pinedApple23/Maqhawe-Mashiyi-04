@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application Form</h1>
+        <form id="applicationForm">
+            <div class="input-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+
+            <div class="input-group">
+                <label for="resume">Resume (PDF)</label>
+                <input type="file" id="resume" name="resume" accept=".pdf" required>
+            </div>
+
+            <div class="input-group">
+                <label for="coverLetter">Cover Letter</label>
+                <textarea id="coverLetter" name="coverLetter" rows="5" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn-submit">Submit Application</button>
+            </div>
+        </form>
+        
+        <!-- Success Message -->
+        <div id="thankYouMessage" class="thank-you" style="display: none;">
+            <h2>Thank you for applying!</h2>
+            <p>Your application has been received. We will contact you soon.</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

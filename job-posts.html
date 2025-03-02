@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Opportunities</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+            padding: 15px 10%;
+        }
+        .header-left {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .interview-prep-link {
+            font-size: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .interview-prep-link:hover {
+            color:green
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .job-listing {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .job-listing h2 {
+            margin: 0;
+            color: #333;
+            cursor: pointer;
+        }
+        .job-listing p {
+            color: #666;
+        }
+        .job-listing h2:hover {
+            color: #007bff;
+        }
+        
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Explore Our Job Opportunities</h1>
+    <a href="Interview-Prep.html" class="interview-prep-link">Interview Prep</a>
+</header>
+
+<div class="container">
+    <div class="job-listing">
+        <h2 onclick="window.location.href='application.html'">Software Engineer</h2>
+        <p>Location: New York, NY</p>
+        <p>Join our dynamic team to work on cutting-edge software development projects!</p>
+        <p>Experience: 6 Years</p>
+    </div>
+
+    <div class="job-listing">
+        <h2 onclick="window.location.href='application.html'">Marketing Specialist</h2>
+        <p>Location: Los Angeles, CA</p>
+        <p>Help us grow our brand and reach new audiences with creative marketing campaigns.</p>
+        <p>Experience: 4 Years</p>
+    </div>
+
+    <div class="job-listing">
+        <h2 onclick="window.location.href='application.html'">Chief Financial Officer</h2>
+        <p>Location: Remote</p>
+        <p>Lead the organization's financial decisions to new and better heights.</p>
+        <p>Experience: 9 Years</p>
+    </div>
+
+    <div class="job-listing">
+        <h2 onclick="window.location.href='application.html'">Data Analyst</h2>
+        <p>Location: Chicago, IL</p>
+        <p>Analyze and interpret complex data to help drive informed business decisions.</p>
+        <p>Experience: 3 Years</p>
+    </div>
+
+    <div class="job-listing">
+        <h2 onclick="window.location.href='application.html'">UX Designer</h2>
+        <p>Location: San Francisco, CA</p>
+        <p>Create seamless and engaging user experiences for our web and mobile platforms.</p>
+        <p>Experience: 8+ Years</p>
+    </div>
+</div>
+
+</body>
+</html>
