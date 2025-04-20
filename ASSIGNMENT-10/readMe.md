@@ -53,5 +53,9 @@ Useful when multiple similar job posts need to be created. Instead of building f
 Ensures that the app uses only one database connection instance, which conserves resources and prevents connection conflicts across the system.
 
 ---
+## Testing & Coverage
+
+This project uses [**Jest**](https://jestjs.io/) for unit testing and code coverage. See test directory for tests. See coverage directory for test and coverage information.
+
 
 
