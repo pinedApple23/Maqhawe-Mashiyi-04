@@ -79,5 +79,5 @@ If you found this project helpful or interesting:
 
 ## 👨‍💻 Author
 
-Developed by [Maqhawe Mashiyi]  
+Developed by [pinedApple23]  
 For educational use as part of a peer-reviewed open-source collaboration assignment.
