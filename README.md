@@ -1,4 +1,4 @@
-# 💼 Job Portal System
+# Job Portal System
 
 A modern job portal web application that allows job seekers to find and apply for jobs, and recruiters to post and manage job listings.  
 This project simulates a real-world job board with admin tools, dashboards, and security features.
